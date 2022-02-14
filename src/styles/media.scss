@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px) {
+  .footer-socials {
+    ul {
+      float: none !important;
+      li {
+        a {
+        }
+      }
+    }
+  }
+
+  .footer-terms {
+    ul {
+      li {
+        &:nth-child(1) {
+          margin-right: 0;
+          margin-left: 0;
+        }
+        &:nth-child(2)::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .footer-links {
+    ul {
+      margin-top: 20px;
+      li {
+        a {
+          padding: 12px 0;
+        }
+      }
+    }
+  }
+  .iphone-wrapper {
+    position: relative;
+    img {
+      position: static !important;
+      margin-top: 40px;
+    }
+  }
+  .gallery {
+    .gallery-item {
+      .inverse-gallery {
+        text-align: left;
+        h3 {
+          span {
+            &:nth-child(1) {
+              float: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .carousel-item {
+    img {
+      height: 300px;
+    }
+
+    .carousel-caption {
+      top: 110px;
+      left: 5%;
+      right: 5%;
+    }
+  }
+
+  header {
+    .title_main {
+      font-size: 32px;
+      line-height: 98.5%;
+      margin-top: 30px;
+    }
+    .title_sub {
+      font-size: 15px;
+    }
+  }
+
+  .navbar-collapse {
+    background-color: #2b4650;
+    padding: 20px;
+  }
+
+  .homepage_filter_area .filter_submit button {
+    margin: 20px auto 0 auto;
+    width: 100%;
+  }
+  .selection_picker {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .selection_picker::after {
+    display: none;
+  }
+  .filter_dates {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .filter_dates::after {
+    display: none;
+  }
+  .filter_guests {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .filter_guests_text {
+    display: block !important;
+  }
+  .homepage_filter_area .filter_guests .filter_guests_buttons {
+    position: relative;
+    right: -90px;
+    top: 15px;
+  }
+}

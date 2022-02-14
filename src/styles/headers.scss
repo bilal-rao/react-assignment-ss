@@ -1,0 +1,102 @@
+header {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	.fixed-top {
+		padding: 5px 50px 0 30px;
+	}
+
+	.stick {
+	    background-color: #2b4650;
+	}
+
+	.header_carousel_title {
+		margin-top: -70px;
+		height: 370px;
+		top: 300px;
+	}
+	.title_main {
+		font-size: 95px;
+		line-height: 96.5%;
+		font-family: 'Gilroy-Bold';
+	}
+	.title_sub {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	
+	.navbar-nav {
+		line-height: 13px;
+		a {
+			height: fit-content;
+    		padding: 9px;
+		  }
+	}
+	.left-border {
+		border-left: 2px solid white;
+		height: 11px;
+		margin-top: 11px;
+	}
+	
+	.nav-link {
+		// width: 105px;
+		border-radius: 40px;
+		color: white !important;
+		border: 2px solid white;
+		text-align: center;
+		border-radius: 25px;
+		padding: 3px;
+	}
+	
+	.n-border {
+		border: none;
+	}
+	
+	.avatar {
+		border-radius: 40px;
+		border: 2px solid white;
+		width: 34px;
+		height: 34px;
+		margin-left: 8px;
+		background-color: white;
+
+		
+		span {
+			margin-top: 9px;
+			display: block;
+			font-family: 'Gilroy-Bold';
+			letter-spacing: 1px;
+			font-size: 12px;
+		}
+	}
+
+	.avatar::after {
+		content: '';
+		display: block;
+		background-image: url('../assets/arrow.png');
+		width: 13px;
+		height: 7px;
+		background-repeat: no-repeat;
+		position: relative;
+		left: 45px;
+		top: -10px;
+	}
+	
+
+	.homepage_header-area {
+		position: relative;
+		z-index: 1;
+	}
+	.carousel-inner {
+		background-color: black !important;
+		.carousel-item {
+			img {
+				opacity: 0.7;
+			}		
+		}
+	}
+}
+
+
+

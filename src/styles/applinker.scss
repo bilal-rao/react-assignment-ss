@@ -1,0 +1,53 @@
+.stretch-container {
+  position: relative;
+  width: 99.4vw;
+  margin-left: -50vw;
+  left: 50%;
+  background: #f6f8f9;
+  .app-linker_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .apps-linker_main-heading {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .apps-linker_amenities {
+    max-width: 537px;
+    padding: 25px 0 0 50px;
+    .list-group-item {
+      background: none;
+      border: none;
+    }
+  }
+  .list-group-item {
+      position: relative;
+  }
+  .list-group-item span {
+    position: absolute;
+    left: -36px;
+    top: 25%;
+    height: 100%;
+  }
+  .iphone-wrapper {
+      position: relative;
+      img {
+        position:absolute;
+        top: 50px;
+      }
+  }
+}
+.app-linker_badges{
+  text-align: center;
+  a{
+    img{
+      margin-bottom: 10px;
+    }
+  }
+}
